@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #e5ffff;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+hr {
+  border-bottom: 5px dotted #b1ddd9;
+  border-top: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 75% auto;
+}
+
+.navigate {
+  background-color: #82ada9;
+}
+
+.content {
+  display: grid;
+  grid-auto-rows: auto;
+}
+
+.text-box {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.fixed {
+  opacity: 0.5;
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.usva {
+  background-image: url("../img/usva3.JPG");
+}
+
+.sinivuokko {
+  background-image: url("../img/sinivuokko.JPG");
+}
+
+.orvokki {
+  background-image: url("../img/orvokki2pienempi.JPG");
+}
+
+.talvi {
+  background-image: url("../img/P3130038.JPG");
+}
