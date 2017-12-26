@@ -20,13 +20,67 @@ hr {
   border-top: none;
 }
 
+a:link {
+  color: #00695c;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #9c27b0;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #26a69a;
+}
+
+.list {
+  display: none;
+}
+
 .container {
   display: grid;
   grid-template-columns: 75% auto;
 }
 
 .navigate {
+  text-align: center;
+  display: grid;
+  grid-template-areas:
+    "links"
+    "links"
+    "links"
+    "contact"
+    "copyright";
   background-color: #82ada9;
+}
+
+.links {
+  grid-area: links;
+  background-color: inherit;
+}
+
+.link {
+  display: block;
+  margin: 10px;
+}
+
+.link,
+.copyright {
+  background-color: inherit;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+.copyright p {
+  background-color: inherit;
+}
+
+.copyright {
+  grid-area: copyright;
+  align-self: end;
 }
 
 .content {
