@@ -52,6 +52,7 @@ a:hover {
 
 .image {
   flex: 1;
+  border-radius: 25px;
 }
 
 .text {

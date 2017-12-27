@@ -6,7 +6,7 @@ $(document).ready(function() {
   const age = Math.floor(ageInMS / yearsInMS);
   $('.age').text(age);
 
-  $('#education').on('click', function() {
+  $('.education').on('click', function() {
     $('.list').toggle();
   });
 });
