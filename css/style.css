@@ -40,18 +40,44 @@ a:hover {
 
 .container {
   display: grid;
-  grid-template-columns: 75% auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "header header header nav"
+    "content content content nav";
+}
+
+.header-text {
+  display: flex;
+}
+
+.image {
+  flex: 1;
+}
+
+.text {
+  flex: 4;
+  align-self: center;
+}
+
+.content {
+  grid-area: content;
+}
+
+.header {
+  grid-area: header;
 }
 
 .navigate {
+  grid-area: nav;
   text-align: center;
-  display: grid;
+  /*display: grid;
   grid-template-areas:
     "links"
     "links"
     "links"
+    "links"
     "contact"
-    "copyright";
+    "copyright";*/
   background-color: #82ada9;
 }
 
@@ -72,6 +98,12 @@ a:hover {
 
 .contact {
   grid-area: contact;
+  background-color: inherit;
+  align-self: end;
+}
+
+.contact h2 {
+  background-color: inherit;
 }
 
 .copyright p {
@@ -81,11 +113,6 @@ a:hover {
 .copyright {
   grid-area: copyright;
   align-self: end;
-}
-
-.content {
-  display: grid;
-  grid-auto-rows: auto;
 }
 
 .text-box {
