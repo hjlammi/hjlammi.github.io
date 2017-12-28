@@ -46,17 +46,19 @@ a:hover {
     "content content content nav";
 }
 
-.header-text {
+.header {
+  grid-area: header;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "image text text text";
+  grid-template-areas:
+    "heading heading heading heading"
+    "image text text text";
 }
 
 .image {
   grid-area: image;
-  /*object-fit: cover;*/
+  width: 150px;
   border-radius: 50%;
-  max-width: 200px;
 }
 
 .text {
@@ -68,8 +70,8 @@ a:hover {
   grid-area: content;
 }
 
-.header {
-  grid-area: header;
+.heading {
+  grid-area: heading;
 }
 
 .navigate {
@@ -154,4 +156,34 @@ a:hover {
 
 .talvi {
   background-image: url("../img/P3130038.JPG");
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "content";
+  }
+
+  .navigate {
+    display: none;
+  }
+
+  .image {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "heading heading heading"
+      "....... image   ......."
+      "text text text";
+    align-items: center;
+  }
 }
