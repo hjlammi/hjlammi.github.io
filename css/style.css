@@ -47,16 +47,20 @@ a:hover {
 }
 
 .header-text {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "image text text text";
 }
 
 .image {
-  flex: 1;
-  border-radius: 25px;
+  grid-area: image;
+  /*object-fit: cover;*/
+  border-radius: 50%;
+  max-width: 200px;
 }
 
 .text {
-  flex: 4;
+  grid-area: text;
   align-self: center;
 }
 
@@ -71,14 +75,17 @@ a:hover {
 .navigate {
   grid-area: nav;
   text-align: center;
-  /*display: grid;
+  display: grid;
   grid-template-areas:
     "links"
     "links"
     "links"
     "links"
+    "links"
+    "links"
+    "links"
     "contact"
-    "copyright";*/
+    "copyright";
   background-color: #82ada9;
 }
 
