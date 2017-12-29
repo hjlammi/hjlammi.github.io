@@ -3,6 +3,7 @@
   margin: 0;
   font-family: sans-serif;
   background-color: #e5ffff;
+  text-align: center;
 }
 
 h1,
@@ -63,7 +64,6 @@ a:hover {
 
 .text {
   grid-area: text;
-  align-self: center;
 }
 
 .content {
@@ -74,26 +74,21 @@ a:hover {
   grid-area: heading;
 }
 
+#home-icon {
+
+}
+
 .navigate {
   grid-area: nav;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  display: grid;
-  grid-template-areas:
-    "links"
-    "links"
-    "links"
-    "links"
-    "links"
-    "links"
-    "links"
-    "contact"
-    "copyright";
   background-color: #82ada9;
 }
 
 .links {
-  grid-area: links;
   background-color: inherit;
+  flex: 100;
 }
 
 .link {
@@ -106,23 +101,8 @@ a:hover {
   background-color: inherit;
 }
 
-.contact {
-  grid-area: contact;
-  background-color: inherit;
-  align-self: end;
-}
-
-.contact h2 {
-  background-color: inherit;
-}
-
-.copyright p {
-  background-color: inherit;
-}
-
 .copyright {
-  grid-area: copyright;
-  align-self: end;
+  flex: 1;
 }
 
 .text-box {
