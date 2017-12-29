@@ -74,8 +74,29 @@ a:hover {
   grid-area: heading;
 }
 
-#home-icon {
+#programming {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "subheading subheading"
+    "skills more-skills"
+    "thoughts thoughts";
+}
 
+#subheading {
+  grid-area: subheading;
+}
+
+#skills {
+  grid-area: skills;
+}
+
+#more-skills {
+  grid-area: more-skills;
+}
+
+#thougths {
+  grid-area: thoughts;
 }
 
 .navigate {
