@@ -8,17 +8,23 @@
 
 h1,
 h2,
-h3 {
-  font-family: 'Indie Flower', cursive;
+h4 {
+  font-family: 'Special Elite', cursive;
 }
 
 h1 {
   font-size: 42px;
+  margin: 10px 0;
+}
+
+h2 {
+  margin-top: 5px;
 }
 
 hr {
   border-bottom: 5px dotted #b1ddd9;
   border-top: none;
+  margin-top: 10px;
 }
 
 a:link {
@@ -32,7 +38,7 @@ a:visited {
 
 a:hover {
   cursor: pointer;
-  color: #26a69a;
+  color: #509556;
 }
 
 .list {
@@ -60,6 +66,7 @@ a:hover {
   grid-area: image;
   width: 150px;
   border-radius: 50%;
+  margin: 5px;
 }
 
 .text {
@@ -72,6 +79,11 @@ a:hover {
 
 .heading {
   grid-area: heading;
+}
+
+#header .text {
+  border: 5px dotted #82ada9;
+  padding: 2px;
 }
 
 #programming {
@@ -97,6 +109,7 @@ a:hover {
 
 #thougths {
   grid-area: thoughts;
+  margin-top: 10px;
 }
 
 .navigate {
@@ -107,6 +120,11 @@ a:hover {
   background-color: #82ada9;
 }
 
+.navigate h4 {
+  margin: 10px 0;
+  /*background-color: inherit;*/
+}
+
 .links {
   background-color: inherit;
   flex: 100;
@@ -115,15 +133,20 @@ a:hover {
 .link {
   display: block;
   margin: 10px;
+  /*background-color: inherit;*/
 }
 
 .link,
-.copyright {
+.copyright,
+.copyright p,
+.navigate h4 {
   background-color: inherit;
 }
 
 .copyright {
   flex: 1;
+  font-size: small;
+  /*background-color: #82ada9;*/
 }
 
 .text-box {
