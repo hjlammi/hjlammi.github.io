@@ -126,7 +126,7 @@ a:hover {
 
 .links {
   background-color: inherit;
-  flex: 100;
+  margin-top: 20px;
   position: fixed;
   align-self: center;
 }
@@ -137,14 +137,11 @@ a:hover {
 }
 
 .link,
-.copyright,
-.copyright p,
 .navigate h4 {
   background-color: inherit;
 }
 
 .copyright {
-  flex: 1;
   font-size: small;
 }
 
