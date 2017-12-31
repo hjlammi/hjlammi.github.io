@@ -69,6 +69,11 @@ a:hover {
   margin: 0 10px 10px 0;
 }
 
+#skills *,
+#more-skills * {
+  text-align: left;
+}
+
 .text {
   grid-area: text;
 }
@@ -84,32 +89,6 @@ a:hover {
 #header .text {
   border: 5px dotted #82ada9;
   padding: 2px;
-}
-
-#programming {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-    "subheading subheading"
-    "skills more-skills"
-    "thoughts thoughts";
-}
-
-#subheading {
-  grid-area: subheading;
-}
-
-#skills {
-  grid-area: skills;
-}
-
-#more-skills {
-  grid-area: more-skills;
-}
-
-#thougths {
-  grid-area: thoughts;
-  margin-top: 10px;
 }
 
 .navigate {
