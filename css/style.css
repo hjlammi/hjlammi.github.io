@@ -38,7 +38,7 @@ a:visited {
 
 a:hover {
   cursor: pointer;
-  color: #509556;
+  color: #0d7f28;
 }
 
 .list {
@@ -66,7 +66,7 @@ a:hover {
   grid-area: image;
   width: 150px;
   border-radius: 50%;
-  margin: 5px;
+  margin: 0 10px 0 0;
 }
 
 .text {
@@ -122,18 +122,18 @@ a:hover {
 
 .navigate h4 {
   margin: 10px 0;
-  /*background-color: inherit;*/
 }
 
 .links {
   background-color: inherit;
   flex: 100;
+  position: fixed;
+  align-self: center;
 }
 
 .link {
   display: block;
   margin: 10px;
-  /*background-color: inherit;*/
 }
 
 .link,
@@ -146,14 +146,13 @@ a:hover {
 .copyright {
   flex: 1;
   font-size: small;
-  /*background-color: #82ada9;*/
 }
 
 .text-box {
   display: grid;
   align-items: center;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 .fixed {
