@@ -106,6 +106,7 @@ a:hover {
 
 #programming h4 {
   padding: 30px 0 10px;
+  text-align: left;
 }
 
 .links {
@@ -117,7 +118,11 @@ a:hover {
 
 .link {
   display: block;
-  padding: 10px;
+  padding: 5px;
+  background-color: inherit;
+}
+
+.link img {
   background-color: inherit;
 }
 
@@ -130,6 +135,10 @@ a:hover {
   align-items: center;
   text-align: center;
   padding: 20px;
+}
+
+.div-text {
+  padding-bottom: 10px;
 }
 
 .fixed {
