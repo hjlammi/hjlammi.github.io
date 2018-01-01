@@ -14,7 +14,7 @@ h4 {
 
 h1 {
   font-size: 42px;
-  margin: 10px 0;
+  padding: 20px 0;
 }
 
 h2 {
@@ -88,7 +88,7 @@ a:hover {
 
 #header .text {
   border: 5px dotted #82ada9;
-  padding: 2px;
+  padding: 10px;
 }
 
 .navigate {
@@ -101,6 +101,11 @@ a:hover {
 
 .navigate h4 {
   margin: 10px 0;
+  background-color: inherit;
+}
+
+#programming h4 {
+  padding: 30px 0 10px;
 }
 
 .links {
@@ -112,11 +117,7 @@ a:hover {
 
 .link {
   display: block;
-  margin: 10px;
-}
-
-.link,
-.navigate h4 {
+  padding: 10px;
   background-color: inherit;
 }
 
