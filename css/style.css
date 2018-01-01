@@ -2,8 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   font-family: sans-serif;
-  background-color: #e5ffff;
-  text-align: center;
 }
 
 h1,
@@ -77,6 +75,7 @@ a:hover {
 }
 
 .content {
+  background-color: #e5ffff;
   grid-area: content;
 }
 
@@ -99,7 +98,6 @@ a:hover {
 
 .navigate h4 {
   margin: 10px 0;
-  background-color: inherit;
 }
 
 #programming h4 {
@@ -108,7 +106,6 @@ a:hover {
 }
 
 .links {
-  background-color: inherit;
   margin-top: 20px;
   position: fixed;
   align-self: center;
@@ -117,15 +114,11 @@ a:hover {
 .link {
   display: block;
   padding: 5px;
-  background-color: inherit;
-}
-
-.link img {
-  background-color: inherit;
 }
 
 .copyright {
   font-size: small;
+  text-align: center;
 }
 
 .text-box {
