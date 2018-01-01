@@ -26,10 +26,8 @@ h2 {
   margin-top: 5px;
 }
 
-hr {
-  border-bottom: 5px dotted #b1ddd9;
-  border-top: none;
-  margin-top: 10px;
+p {
+  padding: 10px 5px;
 }
 
 a:link {
@@ -69,7 +67,7 @@ a:hover {
 
 .image {
   grid-area: image;
-  width: 150px;
+  width: 200px;
   border-radius: 50%;
   margin: 0 10px 10px 0;
 }
