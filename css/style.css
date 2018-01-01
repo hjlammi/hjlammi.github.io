@@ -12,6 +12,11 @@ h4 {
   font-family: 'Special Elite', cursive;
 }
 
+ul,
+li {
+  text-align: left;
+}
+
 h1 {
   font-size: 42px;
   padding: 20px 0;
@@ -67,11 +72,6 @@ a:hover {
   width: 150px;
   border-radius: 50%;
   margin: 0 10px 10px 0;
-}
-
-#skills *,
-#more-skills * {
-  text-align: left;
 }
 
 .text {
