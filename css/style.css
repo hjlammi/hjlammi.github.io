@@ -142,8 +142,8 @@ a:hover {
   background-position: center;
 }
 
-.usva {
-  background-image: url("../img/usva3.JPG");
+.ruohosipuli {
+  background-image: url("../img/ruohosipuli.JPG");
 }
 
 .sinivuokko {
@@ -155,7 +155,7 @@ a:hover {
 }
 
 .talvi {
-  background-image: url("../img/P3130038.JPG");
+  background-image: url("../img/talvi.JPG");
 }
 
 @media screen and (max-width: 640px) {
