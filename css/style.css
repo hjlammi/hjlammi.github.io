@@ -142,16 +142,20 @@ a:hover {
   background-position: center;
 }
 
+.orvokki {
+  background-image: url("../img/orvokki2pienempi.JPG");
+}
+
 .ruohosipuli {
   background-image: url("../img/ruohosipuli.JPG");
 }
 
-.sinivuokko {
-  background-image: url("../img/sinivuokko.JPG");
+.orkidea {
+  background-image: url("../img/orkidea.JPG");
 }
 
-.orvokki {
-  background-image: url("../img/orvokki2pienempi.JPG");
+.sinivuokko {
+  background-image: url("../img/sinivuokko.JPG");
 }
 
 .talvi {
