@@ -1,9 +1,5 @@
 $(document).ready(function() {
-  let today = new Date();
-  const bd = new Date(1981, 1, 19);
-  let ageInMS = today - bd;
-  const yearsInMS = 1000 * 60 * 60 * 24 * 365;
-  const age = Math.floor(ageInMS / yearsInMS);
+  const age = moment().diff("1981-01-19", 'years');
   $('.age').text(age);
 
   $('.education').on('click', function() {
