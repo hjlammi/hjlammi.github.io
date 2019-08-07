@@ -82,7 +82,6 @@ a:hover {
 
 #contact {
   text-align: center;
-  font-size: 0.75em;
 }
 
 .navigate {
@@ -95,6 +94,18 @@ a:hover {
 
 .navigate h4 {
   margin: 10px 0;
+}
+
+.navigate .link {
+  font-size: 1.5em;
+}
+
+.list li {
+  font-size: 1.5em;
+}
+
+.list li li {
+  font-size: 1em;
 }
 
 #programming h4 {
@@ -182,6 +193,10 @@ a:hover {
 
   .image {
     height: 200px;
+  }
+
+  .text {
+    font-size: 1.25em;
   }
 
   .header {
