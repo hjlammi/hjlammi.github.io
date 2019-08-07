@@ -49,8 +49,8 @@ a:hover {
   grid-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    "image heading heading heading heading"
-    "image text text text text";
+    "heading heading heading heading"
+    "image text text text";
 }
 
 .image {
@@ -196,6 +196,14 @@ a:hover {
   }
 
   .text {
+    font-size: 1.25em;
+  }
+
+  .navigate .link {
+    font-size: 1.25em;
+  }
+
+  .list li {
     font-size: 1.25em;
   }
 
