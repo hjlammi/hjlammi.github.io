@@ -9,8 +9,8 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 2em;
   padding: 20px 0;
+  text-align: center;
 }
 
 h2 {
@@ -33,10 +33,6 @@ a:visited {
 a:hover {
   cursor: pointer;
   color: #0d7f28;
-}
-
-.list {
-  display: none;
 }
 
 .container {
@@ -86,7 +82,7 @@ a:hover {
 
 #contact {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 0.75em;
 }
 
 .navigate {
@@ -118,7 +114,6 @@ a:hover {
 }
 
 .copyright {
-  font-size: small;
   text-align: center;
 }
 
@@ -183,7 +178,12 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
+
+  .image {
+    height: 200px;
+  }
+
   .header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
