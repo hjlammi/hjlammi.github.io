@@ -13,7 +13,7 @@
         <h1 class="heading">Hello world, I'm Heidi!</h1>
         <div class="image"></div>
         <div class="header-text text">
-          <p>I'm beginning my 4th year at University of Tampere studying for a Master's degree in Computer Sciences. It is         hopefully my last year as a student as I will start working on my thesis in this fall. The subject of the thesis will be Test-Driven Development which is a subject I feel quite passionate about.<br>
+          <p>I'm beginning my 4th year at University of Tampere studying for a Master's degree in Computer Sciences. It is         hopefully my last year as a student as I will start working on my thesis in this fall. The subject of the thesis will be Test-Driven Development which is a something I feel quite passionate about.<br>
           I'm also working as a (mainly backend) developer in a company called <a href="https://www.exove.com/fi/" target="_blank">Exove.</a>
         </p>
         </div>
@@ -23,7 +23,7 @@
         <div class="text-box" id="studies">
           <div class="div-text text">
             <h2>Studies</h2>
-            <p>I'm <span class="age"></span> years old, and I'm now pursuing a career that will hopefully be something that I will do the rest of my life. I have studied some other subjects in the past. If I had know what programming was when first applying for university studies years and years ago, I wouldn't have needed to try so hard to find my path all these years. But better late than never to find out how much fun coding can be, eh!</p>
+            <p>I'm <span class="age"></span> years old, and I'm now finally pursuing a career that will be something that I will do the rest of my life. I have studied some other subjects in the past but if I had know what programming was when first applying for university studies years and years ago, I wouldn't have needed to try so hard to find my path all these years. But better late than never to find out how much fun coding can be, eh!</p>
             <a href="#studies" class="education">If you are interested, here's a list of my previous degrees:</a>
           </div>
           <div class="list">
@@ -38,9 +38,33 @@
         <div class="fixed ruohosipuli"></div>
         <div class="text-box" id="programming">
           <div id="skills" class="text">
-          <h2>Programming skills</h2>
-            <h4>Skills acquired at university courses:</h4>
+          <h2>Technologies</h2>
+
+          <p>At work I am part of a team working on a customer's video streaming platform. One application I developed for it during my trainee period in the summer 2018 is an integration component between the backend system and YouTube: it is responsible for uploading a video file to YouTube, updating its metadata and finally deleting the video from YouTube. The application was a real learning experience and a fun one as I got to learn some cool new things such as AWS and Terraform.</p>
+
+          <p>AWS and Terraform have actually become quite familiar to me during my working career as we are in the process of moving our customer's backend system to the cloud.</p>
+
+          <p>Another project I have been working on together with one of our current trainees is a dashboard or an info screen for showing different kind of data. In that project I've worked as a mentor for the trainee as well as worked on mainly the backend implemented with NodeJS. The frontend part of the app is made with ReactJS.</p>
+
+          <p>Below I've listed some other projects, school-related or hobby ones, that I've worked on since the beginning of my studies. All of them can be found on my <a href="https://github.com/hjlammi" target="_blank">Github page.</a></p>
             <ul>
+              <li>Javascript</li>
+                <ul>
+                  <li><a href="https://turo.hjlm.dev/#/login"></a>A Twitter-style application for writing short messages for logged in users. It was the coursework for Secure Programming course in the spring 2019. The application is deployed to AWS using Codepipeline and it was implemented using NodeJS, Serverless, Terraform, ReactJS and <a href="https://redux-saga.js.org/">Redux Saga</a>. Test-Driven Development was used in the process: integration testing was done using <a href="https://www.cypress.io/" target="_blank">Cypress.io</a> and Mocha was used for backend testing.</li>
+                  <li><a href="https://people.uta.fi/~hl424546/weatherapp/" target="_blank">Weather application</a>
+                    shows the current weather at the user's geolocation (if the geolocation is available, otherwise an error message is shown).
+                    Weather data is fetched from OpenWeatherMap's API (https://openweathermap.org/api).
+                  </li>
+                  <li><a href="https://people.uta.fi/~hl424546/duckapp/" target="_blank">DuckApp</a>
+                    is a single-page web application I made for Vincit's <a href="http://koodarijahti.fi/" target="_blank">koodarijahti</a> for summer 2018.
+                    With the application you can report duck sightings and view all the reported duck sightings. In the implementation
+                    I utilize components provided by <a href="www.material-ui.com" target="_blank">Material-UI</a>.
+                  </li>
+                </ul>
+              <li>Haskell</li>
+                <ul>
+                  <li>The coursework for Advanced Functional Programming course in the spring 2019. The application is a sort of an text-processing AI from which you can ask simple questions to which it tries to give a logical answer based on the text it was given. It was a really interesting project to work on and I'd love to study funtional programming more in the future! <a href="https://github.com/hjlammi/haskell-coursework">Github page for the coursework.</a> </li>
+                </ul>
               <li>Java</li>
                 <ul>
                   <li><a href="https://github.com/hjlammi/LineBreaker" target="_blank">LineBreaker</a>
@@ -51,44 +75,6 @@
                   <li><a href="https://github.com/hjlammi/SimpleOOPEShell" target="_blank">SimpleOOPEShell</a>
                     simulates a textual user interface that takes commands from the user and processes files and folders accordingly. </li>
                 </ul>
-              <li>HTML5, CSS3, Javascript, Bootstrap, jQuery
-                <ul>
-                  <li><a href="http://www.sis.uta.fi/~hl424546/jwt/harkkatyo/" target="_blank">Tampereen seudun tapahtumat (Tampere Events) webpage</a>
-                    that I made on WWW techniques course in the spring 2016. The page utilizes open data from VisitTampere API
-                    (<a href="https://visittampere.fi/api-docs/" target="_blank">https://visittampere.fi/api-docs/</a>).
-                    <a href="https://github.com/hjlammi/TampereEvents" target="_blank">Click here to view the app's github page.</a>
-                  </li>
-                </ul>
-              </li>
-              <li>PostgreSQL: <a href="harjoitustyo_tkp2016_hl424546.pdf" target="_blank">assignment report (pdf)</a></li>
-              <li>Python3</li>
-            </ul>
-          </div>
-          <div id="more-skills" class="text">
-            <h4>I have also learned on my own:</h4>
-            <ul>
-              <li>ReactJS
-                <ul>
-                  <li><a href="https://people.uta.fi/~hl424546/weatherapp/" target="_blank">Weather application</a>
-                    shows the current weather at the user's geolocation (if the geolocation is available, otherwise an error message is shown).
-                    Weather data is fetched from OpenWeatherMap's API (https://openweathermap.org/api).
-                    The app is still a work in progress as I intend to include a sliding menu with options to show the weather
-                    for the next 5 days and an option to search for the weather in other locations.
-                    <a href="https://github.com/hjlammi/Weather" target="_blank">Click here to view the app's github page.</a>
-                  </li>
-                  <li><a href="https://people.uta.fi/~hl424546/duckapp/" target="_blank">DuckApp</a>
-                    is a single-page web application I made for Vincit's <a href="http://koodarijahti.fi/" target="_blank">koodarijahti</a> for summer 2018.
-                    With the application you can report duck sightings and view all the reported duck sightings. In the implementation
-                    I utilize React components provided by <a href="www.material-ui.com" target="_blank">Material-UI</a>.
-                    <a href="https://github.com/hjlammi/duckapp" target="_blank">Click here to view the app's github page.</a>
-                  </li>
-                </ul>
-              </li>
-              <li>Test-Driven Development and unit-testing (mainly in Java and Python): I like the idea of decomposing a programming task or problem
-                into smaller subproblems which can be tested separately and solved independently of the main problem.
-                Furthermore, unit-testing helps to notice if newly implemented code breaks any of the previously written tests.
-                It is one of the best feelings when all tests pass.
-              </li>
               <li>THREE.js
                 <ul>
                   <li><a href="https://people.uta.fi/~hl424546/joulu/joulu.html" target="_blank">Christmas greeting application</a>
@@ -97,32 +83,16 @@
                   </li>
                 </ul>
               </li>
-              <li>Git</li>
             </ul>
           </div>
         </div>
         <div class="fixed orkidea"></div>
-        <div class="text-box text" id="thoughts">
-          <h2>Thoughts and plans</h2>
-          <p>When trying to learn coding concepts, I think it is important to try to understand what you are doing instead of
-            simply copying stuff from Stack Overflow. In addition to the <i>how</i> something is done, I'm also curious about <i>why</i> something is done the way it is done.</p>
-          <p>At this level of competence I think my strengths are in Front-End Development since that is what I have practised the most.
-            Usability of an app and responsive design are naturally essential factors in front-end development. I'm also interested in the visual aspect of a product.
-            Accessibility is something that I would like to learn more about.</p>
-          <p>Even though I'm still in the beginning of my career I'm always interested in learning more and developing my skills further.
-            In the spring term I will take courses in, for example, database programming, web programming and Haskell,
-            after which I'm convinced I will know enough to be able to move on to perform well and learn more in real-life working environment.
-            It is not a problem for me to have to learn new skills (I've basically done it my whole life!) which is essential in this line of work.</p>
-          <p>In near future I want to keep learning more about React. For example, component lifecycles are still a bit of a mystery to me: when to use what and why.
-            Redux library would be nice to take into use as well. I've also started learning Clojure but due to more urgent stuff to learn, the project is on hold for now.
-            I'd also like to build a chatbot and my own version of a Twitter-kind-of-a messaging service with bots tweeting content. There are so many cool things to learn and so little time!</p>
-        </div>
-        <div class="fixed sinivuokko"></div>
         <div class="text-box" id="work">
           <div class="div-text text">
             <h2>Work experience</h2>
-            <p>I do not have previous experience in working in the field of IT, but</p>
-            <a href="#work" class="education">here's a list of my previous work places, if you are interested:</a>
+            I've been working for Exove since May 2018. At first I began as a Developer Trainee but after the trainee period I was asked to continue as a Junior Developer and that's what I've been doing since along my studies.
+            If you are interested in the work experience from my "previous life",
+            <a href="#work" class="education">here's a list of some of my previous work places:</a>
           </div>
           <div class="list">
             <ul>
@@ -152,7 +122,7 @@
             </ul>
           </div>
         </div>
-        <div class="fixed talvi"></div>
+        <div class="fixed sinivuokko"></div>
         <div class="text-box" id="contact">
           <h2>Contact</h2>
           <a href="https://github.com/hjlammi" target="_blank">https://github.com/hjlammi</a>
@@ -168,8 +138,7 @@
         <div class="links">
           <a href="#header" class="link"><img src="img/ic_home_black_24px.svg" alt=""/></a>
           <a href="#studies" class="link">Studies</a>
-          <a href="#programming" class="link">Programming skills</a>
-          <a href="#thoughts" class="link">Thoughts and plans</a>
+          <a href="#programming" class="link">Technologies</a>
           <a href="#work" class="link">Work experience</a>
           <a href="#contact" class="link">Contact</a>
         </div>
