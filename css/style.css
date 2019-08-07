@@ -1,22 +1,15 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Red Hat Text', sans-serif;
 }
 
-h1,
-h2,
-h4 {
-  font-family: 'Special Elite', sans-serif;
-}
-
-ul,
-li {
-  text-align: left;
+h1, h2 {
+  text-transform: uppercase;
 }
 
 h1 {
-  font-size: 42px;
+  font-size: 2em;
   padding: 20px 0;
 }
 
@@ -57,20 +50,23 @@ a:hover {
 .header {
   grid-area: header;
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    "heading heading heading heading heading"
+    "image heading heading heading heading"
     "image text text text text";
 }
 
 .image {
   grid-area: image;
-  width: 200px;
-  border-radius: 50%;
-  margin: 0 10px 10px 0;
+  height: 100%;
+  background-image: url("../img/lammi1_1020x1360.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
-.text {
+.header-text {
   grid-area: text;
 }
 
@@ -86,6 +82,11 @@ a:hover {
 #header .text {
   border: 5px dotted #82ada9;
   padding: 10px;
+}
+
+#contact {
+  text-align: center;
+  font-size: 1.2em;
 }
 
 .navigate {
@@ -124,7 +125,6 @@ a:hover {
 .text-box {
   display: grid;
   align-items: center;
-  text-align: center;
   padding: 20px;
 }
 
@@ -140,6 +140,12 @@ a:hover {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.text {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 1.5em;
 }
 
 .orvokki {
@@ -163,6 +169,7 @@ a:hover {
 }
 
 @media screen and (max-width: 640px) {
+
   .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -173,10 +180,6 @@ a:hover {
 
   .navigate {
     display: none;
-  }
-
-  .image {
-    max-width: 150px;
   }
 }
 
